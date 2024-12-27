@@ -1,36 +1,7 @@
-# Login API Assignment
+# Python API Assignment
 
 This project is an Android application built with Kotlin, demonstrating the implementation of user authentication and a "Forgot Password" feature. It interacts with a Django REST API for backend operations.
 
-## Features
-
-- **User Authentication:**
-  - User Signup
-  - User Login
-- **Forgot Password:**
-  - Allows users to retrieve their password via email.
-- **Django REST API Integration:**
-  - Backend handles user data and email functionality.
-
----
-
-## Technologies Used
-
-### Frontend
-- **Language:** Kotlin
-- **UI Framework:** XML-based layouts
-- **Libraries:**
-  - Retrofit for HTTP requests
-  - OkHttp for network logging
-
-### Backend
-- **Framework:** Django (Python)
-- **Database:** SQLite (can be replaced with other relational databases)
-- **Email Backend:** Outlook SMTP (via Django Email settings)
-- **API Libraries:**
-  - Django Rest Framework (DRF)
-
----
 
 ## Prerequisites
 
@@ -52,7 +23,7 @@ This project is an Android application built with Kotlin, demonstrating the impl
 
 
 
-Setup Instructions
+# Setup Instructions
 Backend
 Clone the repository:
 
@@ -73,7 +44,7 @@ Copy code
 python manage.py runserver
 Ensure the backend API is reachable at http://192.168.100.102:8000/api/.
 
-Frontend
+# Frontend
 Open the project in Android Studio.
 Update the base URL in the RetrofitInstance object:
 kotlin
@@ -84,7 +55,7 @@ Build and run the application on an emulator or physical device.
 API Endpoints
 Authentication
 
-Signup: POST /api/users/signup/
+# Signup: POST /api/users/signup/
 
 Request Body: { "email": "example@example.com", "username": "user", "password": "password123" }
 Login: POST /api/users/login/
@@ -105,10 +76,15 @@ ForgotPasswordActivity.kt: Implements the "Forgot Password" feature.
 LoginActivity.kt and SignupActivity.kt: Handle login and signup processes.
 RetrofitInstance.kt: Configures Retrofit for API calls.
 
-Notes
+# Notes
 Ensure that the backend server runs on the same network as the Android device or emulator.
 For production, use HTTPS instead of HTTP for secure communication.
 Update SMTP credentials to match your email provider.
 
-License
+# License
 This project is licensed under the MIT License. Feel free to use and modify as needed.
+
+# Submitted By:
+
+# SWEN221101044
+# USMAN SHAMS
