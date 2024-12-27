@@ -1,4 +1,4 @@
-# Login API Assignment
+# Python API's Assignment
 
 This project is an Android application built with Kotlin, demonstrating the implementation of user authentication and a "Forgot Password" feature. It interacts with a Django REST API for backend operations.
 
